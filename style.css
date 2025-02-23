@@ -48,6 +48,10 @@ main {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  img{
+    width:100%;
+    
+  }
   h1 {
     text-align: center;
     font-size: 45px;
