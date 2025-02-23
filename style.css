@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: grey;
+
+  nav {
+    a {
+      text-decoration: none;
+      color: white;
+      padding: 30px;
+      font-size: 28px;
+      display: inline-block;
+      border-radius: 10px;
+      transition: 0.5s;
+    }
+    .home {
+      &:hover {
+        background-color: red;
+        font-size: 37px;
+      }
+    }
+    .about {
+      &:hover {
+        background-color: blue;
+        font-size: 37px;
+      }
+    }
+    .carss {
+      &:hover {
+        background-color: rgb(0, 0, 0);
+        font-size: 37px;
+      }
+    }
+  }
+}
+
+main {
+  width: 100%;
+  height: 900px;
+  background-image: url(https://th.bing.com/th/id/R.97a61f9efc4b117c08d1c9bb89432975?rik=2iYS37Nt8N1Zuw&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f06%2fPhotos-Cool-Car-Wallpapers-HD.jpg&ehk=VzXYg%2fIurPlDRG1naeL%2bxgQhMvG1tZJVTXQ6IaafOGA%3d&risl=&pid=ImgRaw&r=0);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  h1 {
+    text-align: center;
+    font-size: 45px;
+    color: #fff;
+    padding: 10px;
+  }
+}
+
+.about {
+  background-color: grey;
+  img {
+    width: 45%;
+  }
+  h1 {
+    text-align: center;
+    font-size: 45px;
+    color: blue;
+    padding: 20px;
+  }
+  div {
+    width: 45%;
+    display: inline-block;
+    color: #fff;
+    padding-left: 50px;
+    padding-top: 20px;
+  }
+}
+.cars {
+  background-color: black;
+  h1 {
+    text-align: center;
+    font-size: 45px;
+    color: red;
+    padding: 20px;
+  }
+  div {
+    width: 400px;
+    display: inline-block;
+    border: 3px solid red;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+
+    a {
+      color: red;
+      text-decoration: none;
+    }
+
+    img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+  }
+
+  h3 {
+    color: #fff;
+  }
+}
